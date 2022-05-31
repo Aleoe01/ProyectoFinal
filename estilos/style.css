@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{font-size: 60px;}
+h2{font-size: 35px;}
+h3{font-size: 25px;}
+p{font-size: 15px;}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header {
+    background-color: #189AB4;
+    height: 68px;
+    width: 100%;
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    padding: 7px;
+    margin: 0px 10px;
+}
+
+.header__logo{
+    margin: 0;
+    padding: 12px 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.6em;
+}
+
+nav {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    margin: 0 5px;
+    font-family: sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background: url(/images/fondoHero.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 90vh;
+}
+
+.principal {
+    display: flex;
+    width: 60%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.principal h1 {
+    margin: 5px;
+    color: #ffffff;
+}
+
+.principal p {
+    width: 60%;
+    margin: 10px;
+    color: #ffffff;
+}
+
+.principal__button {
+    padding: 15px 30px;
+    margin: 15px;
+    border-radius: 6px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    background-color: #05445E;
+}
+
+.principal a {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#somos {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+}
+
+#somos .contenedor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#somos .contenedor__texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#somos .contenedor__img {
+    background-image: url("/images/fondoHero.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 500px; 
+}
+
+#inicioServicios {
+    padding: 50px;
+    height: 100vh;
+    background-color: #05445E;
+    color: #ffffff;
+}
+
+#inicioServicios .contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#inicioServicios h2{
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+#inicioServicios .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#inicioServicios .card__item {
+    padding: 50px;
+    background-size: 100% 150px;
+    text-align: center;
+}
+
+#inicioServicios .card__item img{
+    width: 50px;
+}
+
+#inicioServicios .card__item h3{
+    padding: 8px;
+}
+
+#inicioServicios .card__item p {
+    width: 250px;
+    margin: 5px 50px;
+}
+
+#cta .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 70vh;
+}
+
+#cta .contenedor p {
+    padding: 10px;
+}
+
+.servicio {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+.fondoClaro {
+    color: black;
+}
+
+.fondoOscuro {
+    background-color: #05445E;
+    color: #ffffff;
+}
+
+.servicio .contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.servicio .contenedor__texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.servicio .contenedor__img {
+    background-image: url(/images/full-stack-1024x473.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 500px; 
+}
+
+#nosotros {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+
+#nosotros .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nosotros .contenedor .contenedor__img  img{
+    width: 500px;
+}
+
+#nosotros .contenedor .contenedor__texto {
+    padding: 25px;
+    text-align: center;
+    width: 50%;
+}
+
+#contact {
+    background: url(/images/fondo-contacto.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 90vh;
+}
+
+#contact .form {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 80vh;
+    width: 60%;
+    padding: 5px 35px;
+    border-radius: 3px;
+}
+
+#contact .form .form__header .form__title{
+    color: #ffffff;
+    padding: 8px 0 13px 0;
+    
+}
+
+#contact .form .form__label {
+    display: block;
+    color: #ffffff;
+    padding: 3px;
+}
+
+#contact .form .form__imput, .form__textarea {
+    background-color: rgba(255,255,255,0);
+    color: #ffffff;
+    border-color: #FFFFFF;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 4px 4px 4px 4px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    text-align: center;
+    
+}
+
+#contact .form .principal__button {
+    background-color: #189AB4;
+    padding: 8px 20px;
+    margin: 0px;
+}
+
+footer {
+    background-color: #189AB4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+
+    
+

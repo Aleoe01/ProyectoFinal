@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 1</title>
+    
+    <!-- CSS only -->
     <link rel="stylesheet" href="/estilos/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 </head>
+
 <body>
-    <header>
-        <div class="barra">
+
+    <header class="navbar bg-primary">
+        <div class="barra container-fluid">
             <a href="../index.html" class="header__logo">LOGO</a>
                 <nav>
                     <a href="../index.html">INICIO</a>
@@ -19,36 +25,44 @@
                 </nav>
         </div>
     </header>
-        <section id="contact">
-            <form action="" method="get" enctype="text/plain" class="form">
-                    <div class="form__header">
-                        <h2 class="form__title">CONTACTO</h2>
+    <section class="section__form">
+        <div class="container">
+            <div class="contenedor__formulario">
+                <div class="formulario">
+                    <div class="formulario__titulo">
+                        <h2>CONTACTO</h2>
                     </div>
-                    <div>
-                        <label for="nombre" class="form__label">Nombre:</label>
-                            <input type="text" id="nombre" class="form__imput" name="nombre" required>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
                     </div>
-                    <div>
-                        <label for="telefono" class="form__label">Telefono</label>
-                            <input type="number" id="telefono" class="form__imput" name="telefono" required>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
                     </div>
-                    <div>
-                        <label for="email" class="form__label">Email:</label>
-                            <input type="email" id="email" class="form__imput" name="email" required>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
                     </div>
-                    <div>
-                        <label for="Message" class="form__label">Ingrese su mensaje</label>
-                            <textarea id="Message" name="Message" class="form__textarea" rows="6" maxlength="3000" required></textarea>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-                    <div>
-                        <input type="submit" class="principal__button" value="ENVIAR">
+                    <div class="mb-3">
+                        <button class="btn btn-primary w-100 fs-5">Enviar Mensaje</button>
                     </div>
-            </form>
-        </section>
-    <footer>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-primary">
         <p>
             © 2022 <strong>Alejandro Ojeda</strong>  - Todos los derechos reservados!
         </p>
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

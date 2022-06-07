@@ -14,58 +14,28 @@
 
 <body>
 
-    <header class="navbar bg-primary">
-        <div class="barra container-fluid">
-            <a href="./index.html" class="header__logo">LOGO</a>
-                <nav>
-                    <a href="./index.html">INICIO</a>
-                    <a href="./vistas/servicios.html">servicio</a>
-                    <a href="./vistas/nosotros.html">nosotros</a>
-                    <a href="./vistas/contacto.html">CONTACTO</a>
-                </nav>
+    <header>
+        <div class="navbar container-lg">
+            <div class="barra container-fluid">
+                <a href="./index.html" class="navbar-brand" id="logo">LOGO</a>
+                    <nav class="nav">
+                        <a class="nav-link" href="./index.html">INICIO</a>
+                        <a class="nav-link" href="./vistas/servicios.html">servicio</a>
+                        <a class="nav-link" href="./vistas/nosotros.html">nosotros</a>
+                        <a class="nav-link" href="./vistas/contacto.html">CONTACTO</a>
+                    </nav>
+            </div>
         </div>
     </header>
 
-    <main>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src="./images/fondoHero.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Bienvenido a "EMPRESA"</h1>
-                    <p>Somos un Equipo de consultores y desarrolladores informaticos dedicados a los Servicios Web</p>
-                </div>
-                </div>
-                <div class="carousel-item">
-                <img src="./images/team.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Bienvenido a "EMPRESA"</h1>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-                </div>
-                <div class="carousel-item">
-                <img src="./images/fondo-contacto.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Bienvenido a "EMPRESA"</h1>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            </div>
-    </main>
+    <section class="hero centrarText">
+        <div class="col-md.8 principal">
+            <h1>Bienvenido a "EMPRESA"</h1>
+            <h4>Somos un Equipo de consultores y desarrolladores informaticos dedicados a los Servicios Web</h4>
+            <a type="button" class="btn btn-primary cta" href="">Contacto</a>
+        </div>
+    </section>
+    
 
     <section id="somos">
         <div class="contenedor">

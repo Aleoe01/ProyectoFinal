@@ -17,8 +17,10 @@ a{
     color: #ffffff;
 }
 
+/* encabezado */
+
 header {
-    background-color: #189AB4;
+    background-color: #11698E;
 }
 
 .barra{
@@ -26,7 +28,7 @@ header {
     max-width: 1400px;
 }
 
-.header__logo{
+#logo{
     margin: 0;
     padding: 12px 30px;
     font-family: sans-serif;
@@ -37,12 +39,12 @@ header {
     transition: transform 0.4s;
 }
 
-.header__logo:hover {
+#logo:hover {
     color: #ffffff;
     transform: scale(1.2);
 }
 
-nav {
+.nav {
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
@@ -51,7 +53,7 @@ nav {
     padding-left: 20px;
 }
 
-nav a {
+.nav a {
     font-size: 18px;
     margin: 0 5px;
     font-family: sans-serif;
@@ -62,8 +64,8 @@ nav a {
     border-radius: 3px;
 }
 
-nav a:hover {
-    background-color: #05445E;
+.nav a:hover {
+    background-color: #16C79A;
     color: #ffffff;
 }
 
@@ -71,18 +73,28 @@ nav a:active {
     background-color: #05445E;
 }
 
-.carousel-item {
-    max-height: 35rem;
+/* fin encabezado */
+
+.hero {
+    height: 90vh;
+    background: url(/images/fondoHero.jpg) center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.principal {
+.centrarText{
     display: flex;
-    width: 60%;
-    padding: 20px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+}
+
+.principal {
+    text-align: center;
+    width: 60%;
+    padding: 20px;
 }
 
 .principal h1 {
@@ -90,10 +102,18 @@ nav a:active {
     color: #ffffff;
 }
 
-.principal p {
-    width: 60%;
-    margin: 10px;
+.principal h4 {
     color: #ffffff;
+}
+
+.principal .cta{
+    background-color: #11698E;
+    border-color: #11698E;
+}
+
+.principal .cta:hover{
+    background-color: #16C79A;
+    border-color: #16C79A;
 }
 
 

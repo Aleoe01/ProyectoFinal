@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Final</title>
 
+    <script src="https://kit.fontawesome.com/946f2badb6.js" crossorigin="anonymous"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     
     <!-- CSS only -->
-    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="/estilos/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-    <!-- iconos -->
-    <script src="https://kit.fontawesome.com/946f2badb6.js" crossorigin="anonymous"></script>
+    
 
 </head>
 
@@ -36,10 +37,10 @@
     </header>
 
     <section class="hero centrarText">
-        <div class="principal">
+        <div class="principal justify-content-center">
             <h1>Bienvenido a "EMPRESA"</h1>
             <h4>Somos un Equipo de consultores y desarrolladores informaticos dedicados a los Servicios Web</h4>
-            <a type="button" class="btn btn-primary cta" href="">Contacto</a>
+            <a type="button" class="btn btn-primary" id="ctaBoton" href="">Contacto</a>
         </div>
     </section>
     
@@ -58,12 +59,12 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio aliquam natus eligendi fuga soluta voluptas nesciunt tenetur, numquam, minus molestiae voluptatum necessitatibus fugit non consequatur?</p>
                   </div>
                   <div class="col-md-6">
-                    <i class="fa-solid fa-laptop-mobile" id="somosIcono"></i>
+                    <i class="fa-solid fa-laptop-mobile fa-lg" id="somosIcono"></i>
                     <h4>Consultores</h4>
                     <p>Te ofrecemos orientación y los servicio para lograr proyectos Webs y tecnológicos.</p>
                   </div>
                   <div class="col-md-6">
-                    <i class="fa-solid fa-rectangle-code"></i>
+                    <i class="fa-solid fa-rectangle-code fa-lg"></i>
                     <h4>Desarrolladores</h4>
                     <p>Analizamos, construimos y te acompañamos en la creación de sistemas para tu organización o emprendimiento.</p>
                   </div>
@@ -133,11 +134,13 @@
   </div>
 </section>
 
-    <section id="cta">
-        <div class="contenedor">
+    <section class="cta centrarText">
+        <div class="container-lg d-flex justify-content-center ">
+          <div class="ctaText">
             <h2>Escribenos para mas informacion</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, quasi.</p>
-            <a href="" class="btn btn-primary">Contacto</a>
+            <a href="" class="btn btn-primary" id="ctaBoton">Contacto</a>
+          </div>
         </div>
     </section>
 

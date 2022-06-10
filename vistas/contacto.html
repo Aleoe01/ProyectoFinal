@@ -7,24 +7,27 @@
     <title>Desafio 1</title>
     
     <!-- CSS only -->
-    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="/estilos/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
 </head>
 
 <body>
 
-    <header class="navbar bg-primary">
-        <div class="barra container-fluid">
-            <a href="../index.html" class="header__logo">LOGO</a>
-                <nav>
-                    <a href="../index.html">INICIO</a>
-                    <a href="servicios.html">servicio</a>
-                    <a href="nosotros.html">nosotros</a>
-                    <a href="contacto.html">CONTACTO</a>
-                </nav>
+    <header>
+        <div class="navbar container-lg">
+            <div class="barra container-fluid">
+                <a href="../index.html" class="navbar-brand" id="logo"> < LOGO /></a>
+                    <nav class="nav">
+                        <a class="nav-link" href="../index.html">INICIO</a>
+                        <a class="nav-link" href="/vistas/servicios.html">servicio</a>
+                        <a class="nav-link" href="/vistas/nosotros.html">nosotros</a>
+                        <a class="nav-link" href="/vistas/contacto.html">CONTACTO</a>
+                    </nav>
+            </div>
         </div>
     </header>
+    
     <section class="section__form">
         <div class="container">
             <div class="contenedor__formulario">
@@ -33,19 +36,19 @@
                         <h2>CONTACTO</h2>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ingrese su nombre" required>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
+                        <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                        <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="ej: 343 123456" required>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <label for="exampleFormControlTextarea1" class="form-label">Dejeanos tu mensaje</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     <div class="mb-3">
@@ -56,10 +59,12 @@
         </div>
     </section>
 
-    <footer class="bg-primary">
+    <footer>
+        <div class="container-lg text-center">
         <p>
             © 2022 <strong>Alejandro Ojeda</strong>  - Todos los derechos reservados!
         </p>
+        </div>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->

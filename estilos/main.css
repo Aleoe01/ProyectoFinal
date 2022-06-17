@@ -36,7 +36,7 @@ header {
   font-weight: bold;
   color: #F8F1F1;
   text-decoration: none;
-  font-size: 1.6em;
+  font-size: 28px;
   transition: transform 0.4s; }
 
 #logo:hover {
@@ -52,7 +52,7 @@ header {
   padding-left: 20px; }
 
 .nav a {
-  font-size: 18px;
+  font-size: 14px;
   margin: 0 5px;
   font-family: sans-serif;
   color: #F8F1F1;
@@ -74,7 +74,7 @@ nav a:active {
 /* fin encabezado */
 .hero {
   height: 90vh;
-  background: url(../images/fondoHero.jpg) center center;
+  background: url(/images/fondoHero.jpg) center center;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -158,6 +158,58 @@ nav a:active {
   padding-top: 5px;
   padding-bottom: 5px; }
 
+@media (max-width: 750px) {
+  .barra {
+    flex-direction: column;
+    align-items: center; }
+  .nav {
+    flex-direction: column;
+    align-items: center; }
+  .principal {
+    width: 80%;
+    padding: 5px; }
+  .somos img {
+    padding-bottom: 15px; } }
+
+footer {
+  background-color: #05445E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh; }
+
+footer p {
+  margin: 0;
+  padding: 12px;
+  font-family: sans-serif;
+  color: #ffffff; }
+
+.section__form {
+  background-image: url("/images/fondoHero.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 15px; }
+
+.contenedor__formulario {
+  width: 60%;
+  margin: 10px auto;
+  color: #F8F1F1;
+  background-color: rgba(225, 225, 225, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  padding: 8px;
+  border-radius: 2px; }
+
+.formulario__titulo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 10px; }
+
 .servicio {
   justify-content: center;
   display: flex;
@@ -185,7 +237,7 @@ nav a:active {
   justify-content: center; }
 
 .servicio .contenedor__img {
-  background-image: url(../images/full-stack-1024x473.jpg);
+  background-image: url(/images/full-stack-1024x473.jpg);
   background-size: cover;
   background-position: center center;
   height: 500px;
@@ -215,55 +267,3 @@ nav a:active {
   padding: 25px;
   text-align: center;
   width: 50%; }
-
-.section__form {
-  background-image: url(../images/fondoHero.jpg);
-  background-size: cover;
-  background-position: center center;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 15px; }
-
-.contenedor__formulario {
-  width: 60%;
-  margin: 10px auto;
-  color: #F8F1F1;
-  background-color: rgba(225, 225, 225, 0.05);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(10px);
-  padding: 8px;
-  border-radius: 2px; }
-
-.formulario__titulo {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  padding: 10px; }
-
-footer {
-  background-color: #05445E;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 30vh; }
-
-footer p {
-  margin: 0;
-  padding: 12px;
-  font-family: sans-serif;
-  color: #ffffff; }
-
-@media (max-width: 750px) {
-  .barra {
-    flex-direction: column;
-    align-items: center; }
-  .nav {
-    flex-direction: column;
-    align-items: center; }
-  .principal {
-    width: 80%;
-    padding: 5px; }
-  .somos img {
-    padding-bottom: 15px; } }

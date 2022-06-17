@@ -1,0 +1,64 @@
+/* encabezado */
+
+header {
+    background-color: $color-principal;
+}
+
+.barra{
+    flex-direction: row;
+    max-width: 1400px;
+}
+
+#logo{
+    
+    padding: 12px 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: $color-texto;
+    text-decoration: none;
+    font-size: 28px;
+    transition: transform 0.4s;
+}
+
+#logo:hover {
+    color: $color-texto;
+    transform: scale(1.2);
+}
+
+.nav {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav a {
+    font-size: 14px;
+    margin: 0 5px;
+    font-family: sans-serif;
+    color: $color-texto;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.nav a:hover {
+    background-color: $color-acento;
+    color: $color-texto;
+}
+
+nav a:active {
+    background-color: $color-principal;
+}
+
+.abrirMenu, .cerrarMenu {
+    display: none;
+}
+
+
+
+
+/* fin encabezado */

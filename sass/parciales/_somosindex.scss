@@ -1,0 +1,16 @@
+.somos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.somos img {
+    width: 100%;
+}
+
+#somosIcono {
+    font-size: 48px;
+    margin-top: 15px;
+    color: $color-acento;
+}

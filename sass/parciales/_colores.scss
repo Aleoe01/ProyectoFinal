@@ -1,0 +1,23 @@
+$color-principal: #11698E;
+$color-fondo:  #19456B;
+$color-acento: #16C79A;
+$color-texto: #F8F1F1;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{font-size: 5rem;}
+h2{font-size: 35px;}
+h3{font-size: 25px;}
+p{font-size: 1rem;}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}

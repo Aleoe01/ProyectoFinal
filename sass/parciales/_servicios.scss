@@ -1,0 +1,44 @@
+.servicio {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+.fondoClaro {
+    color: black;
+}
+
+.fondoOscuro {
+    background-color: #05445E;
+    color: #ffffff;
+}
+
+.servicio .contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.servicio .contenedor__texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.servicio .contenedor__img {
+    background-image: url(/images/full-stack-1024x473.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 500px; 
+
+    transition: 0.3s ease-in-out;
+}
+
+.servicio .contenedor__img:hover {
+    transform: rotate(-1.8deg) scale(1.05);
+}

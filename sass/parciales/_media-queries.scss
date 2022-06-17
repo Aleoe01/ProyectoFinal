@@ -1,0 +1,23 @@
+@media (max-width: 750px) {
+    .barra {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .principal {
+        width: 80%;
+        padding: 5px;
+    }
+
+    
+
+    .somos img{
+        padding-bottom: 15px;
+    }
+
+}

@@ -243,18 +243,21 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 90vh; }
+  margin-bottom: 25px; }
   #nosotros .container-lg {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly; }
-    #nosotros .container-lg .nosotros__texto {
-      padding: 25px;
-      text-align: center;
-      width: 50%; }
-    #nosotros .container-lg .nosotros__img {
-      width: 500px; }
+  #nosotros .nosotros__texto {
+    padding: 25px 15px;
+    text-align: center;
+    width: 60%; }
+  #nosotros .nosotros__img {
+    width: 60%;
+    text-align: center; }
+    #nosotros .nosotros__img img {
+      width: 90%; }
 
 @media (max-width: 750px) {
   .barra {

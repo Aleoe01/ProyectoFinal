@@ -50,35 +50,39 @@ header {
   padding-bottom: 0;
   padding-right: 20px;
   padding-left: 20px; }
-
-.nav a {
-  font-size: 14px;
-  margin: 0 5px;
-  font-family: sans-serif;
-  color: #F8F1F1;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 8px;
-  border-radius: 3px; }
-
-.nav a:hover {
-  background-color: #16C79A;
-  color: #F8F1F1; }
-
-nav a:active {
-  background-color: #11698E; }
-
-.abrirMenu, .cerrarMenu {
-  display: none; }
+  .nav a {
+    font-size: 14px;
+    margin: 0 5px;
+    font-family: sans-serif;
+    color: #F8F1F1;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 3px; }
+  .nav a:hover {
+    background-color: #16C79A;
+    color: #F8F1F1; }
+  .nav a:active {
+    background-color: #11698E; }
+  .nav .abrirMenu, .nav .cerrarMenu {
+    display: none; }
 
 /* fin encabezado */
-.hero {
+#hero {
   height: 90vh;
+  margin-top: 10vh;
   background: url(../images/fondoHero.jpg) center center;
   background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  position: relative; }
+  #hero .container-lg {
+    text-align: center; }
+  #hero h1 {
+    font-size: 48px;
+    line-height: 56px;
+    color: #F8F1F1; }
+  #hero h4 {
+    color: #F8F1F1;
+    margin: 20px 0; }
 
 .centrarText {
   display: flex;
@@ -86,22 +90,12 @@ nav a:active {
   align-items: center;
   flex-direction: column; }
 
-.principal {
-  text-align: center;
-  width: 60%;
-  height: 55%;
-  padding: 20px; }
-
-.principal h1 {
-  margin: 5px;
-  color: #F8F1F1; }
-
-.principal h4 {
-  color: #F8F1F1; }
-
 #ctaBoton {
   background-color: #11698E;
-  border-color: #11698E; }
+  border-color: #11698E;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin-top: 5px; }
 
 #ctaBoton:hover {
   background-color: #16C79A;
@@ -210,42 +204,12 @@ footer p {
   justify-content: center;
   padding: 10px; }
 
-.servicio {
+.hacemos {
+  display: flex;
   justify-content: center;
-  display: flex;
   align-items: center;
+  margin-top: 10vh;
   height: 90vh; }
-
-.fondoClaro {
-  color: black; }
-
-.fondoOscuro {
-  background-color: #05445E;
-  color: #ffffff; }
-
-.servicio .contenedor {
-  display: flex;
-  justify-content: space-evenly; }
-
-.servicio .contenedor__texto {
-  width: 50%;
-  max-width: 600px;
-  text-align: initial;
-  padding-left: 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-
-.servicio .contenedor__img {
-  background-image: url(../images/full-stack-1024x473.jpg);
-  background-size: cover;
-  background-position: center center;
-  height: 500px;
-  width: 500px;
-  transition: 0.3s ease-in-out; }
-
-.servicio .contenedor__img:hover {
-  transform: rotate(-1.8deg) scale(1.05); }
 
 #nosotros {
   justify-content: center;

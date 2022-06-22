@@ -1,10 +1,21 @@
-.hero {
+#hero {
     height: 90vh;
+    margin-top: 10vh;
     background: url(../images/fondoHero.jpg) center center;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    .container-lg {
+        text-align: center;
+    }
+    h1 {
+        font-size: 48px;
+        line-height: 56px;
+        color: $color-texto;
+    }
+    h4 {
+        color: $color-texto;
+        margin: 20px 0;
+    }
 }
 
 .centrarText{
@@ -14,25 +25,12 @@
     flex-direction: column;
 }
 
-.principal {
-    text-align: center;
-    width: 60%;
-    height: 55%;
-    padding: 20px;
-}
-
-.principal h1 {
-    margin: 5px;
-    color: $color-texto;
-}
-
-.principal h4 {
-    color: $color-texto;
-}
-
 #ctaBoton{
     background-color: $color-principal;
     border-color: $color-principal;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 5px;
 }
 
 #ctaBoton:hover{

@@ -2,22 +2,61 @@
     .barra {
         flex-direction: column;
         align-items: center;
+        a{
+            margin: 0px;
+        }
     }
     
     .nav {
         flex-direction: column;
         align-items: center;
+        padding: 0px;
     }
 
-    .principal {
-        width: 80%;
-        padding: 5px;
+    #hero{
+        margin-top: 20vh;
     }
-
-    
 
     .somos img{
         padding-bottom: 15px;
+    }
+
+    .hacemos {
+        margin-top: 30vh;
+        height: 70vh;
+        text-align: center;
+        .hacemos__texto {
+            h2 {
+                font-size: 30px;
+                margin-bottom: 13px;
+            }
+            p {
+                font-size: 15px;
+                margin-top: 13px;
+            }
+        }
+        .container {
+            padding-right: 12px;
+        }
+    }
+
+    .google {
+        height: 70vh;
+        text-align: center;
+        .google__texto {
+            margin-top: 15px;
+            h2 {
+                font-size: 30px;
+                margin-bottom: 13px;
+            }
+            p {
+                font-size: 15px;
+                margin-top: 13px;
+            }
+        }
+        .container {
+            padding-left: 12px;
+        }
     }
 
 }

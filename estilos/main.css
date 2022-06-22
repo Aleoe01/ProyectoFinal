@@ -152,19 +152,6 @@ header {
   padding-top: 5px;
   padding-bottom: 5px; }
 
-@media (max-width: 750px) {
-  .barra {
-    flex-direction: column;
-    align-items: center; }
-  .nav {
-    flex-direction: column;
-    align-items: center; }
-  .principal {
-    width: 80%;
-    padding: 5px; }
-  .somos img {
-    padding-bottom: 15px; } }
-
 footer {
   background-color: #05445E;
   display: flex;
@@ -210,6 +197,46 @@ footer p {
   align-items: center;
   margin-top: 10vh;
   height: 90vh; }
+  .hacemos .container-lg {
+    padding: 0 40px; }
+  .hacemos .col-md-4 {
+    display: flex;
+    align-items: center; }
+  .hacemos .hacemos__texto h2 {
+    font-size: 50px;
+    margin-bottom: 13px; }
+  .hacemos .hacemos__texto p {
+    font-size: 18px;
+    margin-top: 13px; }
+  .hacemos .container {
+    padding-right: 0px; }
+    .hacemos .container .hacemos__img img {
+      width: 100%; }
+
+.google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #19456B;
+  height: 80vh;
+  margin-bottom: 20px; }
+  .google .container-lg {
+    padding: 0 40px; }
+  .google .col-md-4 {
+    display: flex;
+    align-items: center; }
+  .google .google__texto h2 {
+    color: #F8F1F1;
+    font-size: 50px;
+    margin-bottom: 13px; }
+  .google .google__texto p {
+    color: #F8F1F1;
+    font-size: 18px;
+    margin-top: 13px; }
+  .google .container {
+    padding-left: 0px; }
+    .google .container .hacemos__img img {
+      width: 100%; }
 
 #nosotros {
   justify-content: center;
@@ -217,17 +244,54 @@ footer p {
   flex-direction: column;
   align-items: center;
   height: 90vh; }
+  #nosotros .container-lg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; }
+    #nosotros .container-lg .nosotros__texto {
+      padding: 25px;
+      text-align: center;
+      width: 50%; }
+    #nosotros .container-lg .nosotros__img {
+      width: 500px; }
 
-#nosotros .contenedor {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly; }
-
-#nosotros .contenedor .contenedor__img img {
-  width: 500px; }
-
-#nosotros .contenedor .contenedor__texto {
-  padding: 25px;
-  text-align: center;
-  width: 50%; }
+@media (max-width: 750px) {
+  .barra {
+    flex-direction: column;
+    align-items: center; }
+    .barra a {
+      margin: 0px; }
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px; }
+  #hero {
+    margin-top: 20vh; }
+  .somos img {
+    padding-bottom: 15px; }
+  .hacemos {
+    margin-top: 30vh;
+    height: 70vh;
+    text-align: center; }
+    .hacemos .hacemos__texto h2 {
+      font-size: 30px;
+      margin-bottom: 13px; }
+    .hacemos .hacemos__texto p {
+      font-size: 15px;
+      margin-top: 13px; }
+    .hacemos .container {
+      padding-right: 12px; }
+  .google {
+    height: 70vh;
+    text-align: center; }
+    .google .google__texto {
+      margin-top: 15px; }
+      .google .google__texto h2 {
+        font-size: 30px;
+        margin-bottom: 13px; }
+      .google .google__texto p {
+        font-size: 15px;
+        margin-top: 13px; }
+    .google .container {
+      padding-left: 12px; } }

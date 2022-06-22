@@ -4,21 +4,18 @@
     flex-direction: column;
     align-items: center;
     height: 90vh;
-}
-
-#nosotros .contenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-#nosotros .contenedor .contenedor__img  img{
-    width: 500px;
-}
-
-#nosotros .contenedor .contenedor__texto {
-    padding: 25px;
-    text-align: center;
-    width: 50%;
+    .container-lg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .nosotros__texto {
+            padding: 25px;
+            text-align: center;
+            width: 50%;
+        }
+        .nosotros__img {
+            width: 500px;
+        }
+    }
 }

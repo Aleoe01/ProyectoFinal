@@ -48,7 +48,7 @@ header {
 #hero {
   height: 90vh;
   margin-top: 10vh;
-  background: url(/images/pexels-pixabay-270348.jpg) center center fixed;
+  background: url(../images/pexels-pixabay-270348.jpg) center center fixed;
   background-size: cover;
   position: relative; }
   #hero .container-lg {
@@ -112,7 +112,7 @@ header {
     width: 100%; }
 
 .servicios {
-  background: url(/images/pexels-picjumbocom-196644.jpg) center center fixed;
+  background: url(../images/pexels-picjumbocom-196644.jpg) center center fixed;
   background-size: cover;
   position: relative;
   min-height: 100vh;
@@ -177,7 +177,7 @@ header {
       border-color: #16C79A; }
 
 footer {
-  background: url(/images/fondofooter.jpg) fixed;
+  background: url(../images/fondofooter.jpg) fixed;
   background-size: cover;
   display: flex;
   flex-direction: column;

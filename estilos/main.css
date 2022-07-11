@@ -228,30 +228,49 @@ footer {
     margin-bottom: 0;
     padding-top: 5px; }
 
-.section__form {
-  background-image: url(../images/fondoHero.jpg);
-  background-size: cover;
-  background-position: center center;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 15px; }
-
-.contenedor__formulario {
-  width: 60%;
-  margin: 10px auto;
-  color: #F8F1F1;
-  background-color: rgba(225, 225, 225, 0.05);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(10px);
-  padding: 8px;
-  border-radius: 2px; }
-
-.formulario__titulo {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  padding: 10px; }
+.formulario {
+  height: 80vh;
+  margin-top: 20vh;
+  padding: 15px;
+  font-family: 'Ubuntu', sans-serif; }
+  .formulario .formulario__iconos {
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .formulario .formulario__iconos .row {
+      width: 100%; }
+      .formulario .formulario__iconos .row i {
+        font-size: 4em;
+        color: #16C79A; }
+      .formulario .formulario__iconos .row h4 {
+        font-weight: 400;
+        color: #19456B;
+        margin: 10px 0 0 0; }
+  .formulario .formulario__campos {
+    height: 40vh; }
+    .formulario .formulario__campos .form-label {
+      color: #19456B;
+      font-weight: 500; }
+    .formulario .formulario__campos .form-control {
+      border: 2px solid #ced4da; }
+    .formulario .formulario__campos .formulario__enviar {
+      display: flex;
+      justify-content: flex-end; }
+      .formulario .formulario__campos .formulario__enviar .btn {
+        color: #19456B;
+        background-color: rgba(0, 0, 0, 0);
+        border-color: #16C79A;
+        font-weight: 300;
+        border-width: 2px;
+        padding: 10px 30px;
+        border-radius: 30px;
+        margin-top: 8px; }
+      .formulario .formulario__campos .formulario__enviar .btn:hover {
+        color: #F8F1F1;
+        background-color: #16C79A;
+        border-color: #16C79A; }
 
 .hacemos {
   display: flex;

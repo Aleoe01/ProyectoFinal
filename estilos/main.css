@@ -322,52 +322,81 @@ footer {
     .items .items__text p {
       color: #19456B; }
 
-#nosotros {
-  justify-content: center;
+.nosotros {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin-top: 15vh;
-  margin-bottom: 25px; }
-  #nosotros .container-lg {
+  height: 80vh;
+  margin-top: 20vh;
+  font-family: 'Ubuntu', sans-serif; }
+  .nosotros .container-lg {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly; }
-  #nosotros .nosotros__texto {
-    padding: 25px 15px;
-    text-align: center;
-    width: 60%; }
-  #nosotros .nosotros__img {
-    width: 60%;
-    text-align: center; }
-    #nosotros .nosotros__img img {
-      width: 90%; }
+  .nosotros .nosotros__texto {
+    padding: 25px 15px; }
+    .nosotros .nosotros__texto h2 {
+      color: #16C79A;
+      font-weight: 500;
+      margin: 8px 0 60px 0;
+      font-size: 2.8em; }
+    .nosotros .nosotros__texto p {
+      color: #19456B;
+      font-weight: 300;
+      font-size: 1.1em; }
+    .nosotros .nosotros__texto .btn {
+      color: #19456B;
+      background-color: rgba(0, 0, 0, 0);
+      border-color: #16C79A;
+      font-weight: 300;
+      border-width: 2px;
+      padding: 10px 30px;
+      border-radius: 30px;
+      margin-top: 8px; }
+    .nosotros .nosotros__texto .btn:hover {
+      color: #F8F1F1;
+      background-color: #16C79A;
+      border-color: #16C79A; }
+  .nosotros .nosotros__img img {
+    width: 100%;
+    border-radius: 7px; }
 
-#team {
-  padding: 60px 0; }
-  #team .container-lg {
+.team {
+  height: 90vh;
+  margin-top: 10px;
+  font-family: 'Ubuntu', sans-serif; }
+  .team .container-lg {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    #team .container-lg .team__title {
+    .team .container-lg .team__title {
       padding: 10px;
       font-size: 30px;
+      font-weight: 500;
       color: #19456B; }
-    #team .container-lg .team__member {
+    .team .container-lg .team__member {
       padding: 24px 12px;
       text-align: center; }
-      #team .container-lg .team__member img {
-        width: 100%;
-        border-radius: 2px; }
-      #team .container-lg .team__member .team__member--info {
-        padding: 10px 0; }
-        #team .container-lg .team__member .team__member--info h4 {
-          color: #11698E; }
-        #team .container-lg .team__member .team__member--info p {
+      .team .container-lg .team__member img {
+        width: 80%;
+        border-radius: 50%; }
+      .team .container-lg .team__member .team__member--info {
+        padding: 20px 0 10px 0; }
+        .team .container-lg .team__member .team__member--info h4 {
+          font-weight: 400;
+          color: #11698E;
+          margin-bottom: 0px; }
+        .team .container-lg .team__member .team__member--info p {
+          font-weight: 300;
           margin: 0;
           color: #16C79A; }
+      .team .container-lg .team__member .team__member--social i {
+        color: #19456B;
+        font-size: 2em;
+        margin: 0 4px; }
+      .team .container-lg .team__member .team__member--social i:hover {
+        color: #16C79A; }
 
 @media (max-width: 750px) {
   .barra {

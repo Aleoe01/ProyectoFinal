@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
 
-    <!--SEO-->
-    <title>Nombre Empresa</title>
-    <meta name="description" content="Desarrolo y consultoria web" />
-    <meta name="keywords" content="rogramacion, desarrollo, dev, devs, Developer, consultoria, informatica, consultor, consutores, desingn" />
-    <meta name="author" content="Alejandro Ojeda" />
-    
     <!-- CSS only -->
     <link rel="stylesheet" href="../estilos/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!--SEO-->
+    <title>Infinty Byte</title>
+    <meta name="description" content="Desarrolo y consultoria web" />
+    <meta name="keywords" content="rogramacion, desarrollo, dev, devs, Developer, consultoria, informatica, consultor, consutores, desingn" />
+    <meta name="author" content="Alejandro Ojeda" />
+
+    <script src="https://kit.fontawesome.com/40f2c726a7.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    
 
     
 
@@ -25,7 +32,9 @@
     <header class="fixed-top">
         <div class="navbar container-lg">
             <div class="barra container-fluid">
-                <a href="../index.html" class="navbar-brand" id="logo"> < LOGO /></a>
+                <a href="../index.html" class="navbar-brand logo">
+                <img src="../images/InfintyLogo.png" alt="">
+                </a>
                     <nav class="nav">
                         <a class="nav-link" href="../index.html">INICIO</a>
                         <a class="nav-link" href="servicios.html">servicio</a>
@@ -36,21 +45,31 @@
         </div>
     </header>
 
-        <section id="nosotros">
+        <section class="nosotros">
             <div class="container-lg">
-                <div class="nosotros__texto">
-                    <h2>¿QUIENES SOMOS?</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio aliquam natus eligendi fuga soluta voluptas nesciunt tenetur, numquam, minus molestiae voluptatum necessitatibus fugit non consequatur?</p>
-                </div>
-            </div>
-            <div class="container-lg">
-                <div class="nosotros__img">
-                    <img src="../images/team.jpg" alt="">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="nosotros__texto">
+                        <h2>Sobre Nosotros</h2>
+                        <p>
+                            En Infinity Byte no especializamos en Ecommerce, diseño web responsive y servicios de marketing digital para empresas. 
+                        </p>
+                        <p>
+                            Ofrecemos diseño, desarrollo, implementación y gestión de herramientas web con el objetivo de potenciar el comercio electrónico.
+                        </p>
+                        <a href="" class="btn btn-primary">Contactanos</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="nosotros__img">
+                        <img class="img-fluid" src="/images/equipo.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="team">
+        <section class="team">
             <div class="container-lg">
                 <div class="team__title">
                     <h2>
@@ -58,8 +77,8 @@
                     </h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6"></div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
                         <div class="team__member">
                             <div class="team__member--img">
                                 <img src="../images/ale.jpg" alt="">
@@ -68,9 +87,14 @@
                                 <h4>Ojeda Alejandro</h4>
                                 <p>Programador</p>
                             </div>
+                            <div class="team__member--social">
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-md-4">
                         <div class="team__member">
                             <div class="team__member--img">
                                 <img src="../images/sergio.jpg" alt="">
@@ -79,6 +103,11 @@
                                 <h4>Sergio Saes</h4>
                                 <p>Programador</p>
                             </div>
+                            <div class="team__member--social">
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -86,10 +115,68 @@
         </section>
 
         <footer>
-            <div class="container-lg text-center">
-            <p>
-                © 2022 <strong>Alejandro Ojeda</strong>  - Todos los derechos reservados!
-            </p>
+            <div class="container-lg footer__top">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer__contacto">
+                        <h2>INFINITY BYTE</h2>
+                        <p>
+                        <strong>Phone:</strong> +54 343 4179634
+                        </p>
+                        <p><strong>Email:</strong> aleoe.12@gmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer__links">
+                        <h4>Enlaces utiles</h4>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                                <a href="">Inicio</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                                <a href="">Servicios</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                                <a href="">Nosotros</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                                <a href="">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer__servicios">
+                        <h4>Nuestros servicios</h4>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                                <p>Desarrollo Web</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                                <p>Diseño Web</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                                <p>E-Commerce</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                                <p>Consultoria</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="footer__fondo">
+                <p>© 2022 <strong>Alejandro Ojeda</strong> - Todos los derechos reservados!</p>
             </div>
         </footer>
     

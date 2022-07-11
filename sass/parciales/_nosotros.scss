@@ -1,10 +1,9 @@
-#nosotros {
-    justify-content: center;
+.nosotros {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-top: 15vh;
-    margin-bottom: 25px;
+    height: 80vh;
+    margin-top: 20vh;
+    font-family: 'Ubuntu', sans-serif;
     .container-lg {
         display: flex;
         flex-direction: column;
@@ -13,20 +12,45 @@
     }
     .nosotros__texto {
         padding: 25px 15px;
-        text-align: center;
-        width: 60%;
+        h2 {
+            color: $color-acento;
+            font-weight: 500;
+            margin: 8px 0 60px 0;
+            font-size: 2.8em;
+        }
+        p {
+            color: $color-fondo;
+            font-weight: 300;
+            font-size: 1.1em;
+        }
+        .btn {
+            color: $color-fondo;
+            background-color: rgba(0, 0, 0, 0);
+            border-color: $color-acento;
+            font-weight: 300;
+            border-width: 2px;
+            padding: 10px 30px;
+            border-radius: 30px;
+            margin-top: 8px;
+        }
+        .btn:hover {
+            color: $color-texto;
+            background-color: $color-acento;
+            border-color: $color-acento;
+        }
     }
     .nosotros__img {
-        width: 60%;
-        text-align: center;
         img {
-            width: 90%;
+            width: 100%;
+            border-radius: 7px;
         }
     }
 }
 
-#team {
-    padding: 60px 0;
+.team {
+    height: 90vh;
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
     .container-lg {
         display: flex;
         flex-direction: column;
@@ -36,22 +60,37 @@
         .team__title {
             padding: 10px;
             font-size: 30px;
+            font-weight: 500;
             color: $color-fondo;
         }
         .team__member {
             padding: 24px 12px;
             text-align: center;
             img {
-                width: 100%;
-                border-radius: 2px;
+                width: 80%;
+                border-radius: 50%;
             }
             .team__member--info {
-                padding: 10px 0;
+                padding: 20px 0 10px 0;
                 h4 {
+                    font-weight: 400;
                     color: $color-principal;
+                    margin-bottom: 0px;
                 }
                 p {
+                    font-weight: 300;
                     margin: 0;
+                    color: $color-acento;
+                }
+            }
+            .team__member--social {
+
+                i {
+                    color: $color-fondo;
+                    font-size: 2em;
+                    margin: 0 4px;
+                }
+                i:hover {
                     color: $color-acento;
                 }
             }

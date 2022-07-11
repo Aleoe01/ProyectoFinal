@@ -2,67 +2,86 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(to bottom right, $color-acento, $color-fondo);
     margin-top: 10vh;
     height: 90vh;
     .container-lg {
         padding: 0 40px;
-    }
-    .col-md-4{
         display: flex;
-        align-items: center;
+        justify-content: center;
     }
     .hacemos__texto {
+        font-family: 'Ubuntu', sans-serif;
+        width: 72%;
+        color: $color-texto;
         h2 {
             font-size: 50px;
-            margin-bottom: 13px;
+            font-weight: 500;
+            margin-bottom: 60px;
+            span {
+                text-decoration: underline;
+            }
         }
-        p {
-            font-size: 18px;
-            margin-top: 13px;
+        h4 {
+            font-weight: 300;
         }
-    }
-    .container{
-        padding-right: 0px;
-        .hacemos__img {
-            img {
-                width: 100%;
-            }       
+        .btn {
+            background-color: rgba(0, 0, 0, 0);
+            border-color: $color-acento;
+            font-weight: 300;
+            padding: 10px 30px;
+            border-radius: 30px;
+            margin-top: 8px;
         }
-    }  
+        .btn:hover {
+            background-color: $color-acento;
+            border-color: $color-acento;
+        }
+}
 }
 
-.google {
+.items {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $color-fondo;
+    background-color: $color-texto;
     height: 80vh;
-    margin-bottom: 20px;
     .container-lg {
         padding: 0 40px;
+        margin-top: 70px;
     }
-    .col-md-4{
-        display: flex;
-        align-items: center;
+    .items__icono {
+        float: left;
+        width: 24%;
+        .items__icono--radio {
+            border: 1px solid $color-fondo;
+            border-radius: 100px;
+            text-align: center;
+            transition: all 0.3s ease 0s;
+            i {
+                color: $color-fondo;
+                font-size: 40px;
+                line-height: 120px;
+            }
+        }
+        .items__icono--radio:hover {
+            background-color: $color-fondo;
+            i {
+                color: $color-texto;
+            }
+        }
     }
-    .google__texto {
-        h2 {
-            color: $color-texto;
-            font-size: 50px;
-            margin-bottom: 13px;
+    .items__text {
+        float: left;
+        width: 60%;
+        margin-left: 45px;
+        margin-bottom: 60px;
+        h4 {
+            color: $color-acento;
+            
         }
         p {
-            color: $color-texto;
-            font-size: 18px;
-            margin-top: 13px;
+            color: $color-fondo;
         }
-    }
-    .container{
-        padding-left: 0px;
-        .hacemos__img {
-            img {
-                width: 100%;
-            }       
-        }
-    }  
+    } 
 }

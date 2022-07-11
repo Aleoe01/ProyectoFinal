@@ -15,11 +15,11 @@
     <meta name="keywords" content="rogramacion, desarrollo, dev, devs, Developer, consultoria, informatica, consultor, consutores, desingn" />
     <meta name="author" content="Alejandro Ojeda" />
 
-    <script src="https://kit.fontawesome.com/946f2badb6.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/40f2c726a7.js" crossorigin="anonymous"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
     
     
 
@@ -32,7 +32,9 @@
     <header class="fixed-top">
         <div class="navbar container-lg">
             <div class="barra container-fluid">
-                <a href="./index.html" class="navbar-brand" id="logo"> < LOGO /></a>
+                <a href="./index.html" class="navbar-brand logo">
+                  <img src="/images/Infinty_Logo__1_-removebg-preview.png" alt="">
+                </a>
                     <nav class="nav">
                         <a class="nav-link" href="index.html">INICIO</a>
                         <a class="nav-link" href="vistas/servicios.html">servicio</a>
@@ -45,9 +47,9 @@
 
     <section id="hero" class="d-flex align-items-center justify-content-center">
         <div class="container-lg position-relative">
-            <h1>Bienvenido a "EMPRESA"</h1>
+            <h1>Bienvenido a INFINITY BYTE</h1>
             <h4>Somos un Equipo de consultores y desarrolladores informaticos dedicados a los Servicios Web</h4>
-            <a type="button" class="btn btn-primary" id="ctaBoton" href="">Contacto</a>
+            <a type="button" class="btn btn-primary" href="">Contactanos</a>
         </div>
     </section>
     
@@ -55,23 +57,20 @@
     <section class="somos">
         <div class="container-lg">
           <div class="row">
-            <div class="col-md-6">
-              <img class="img-fluid" src="images/fondo-contacto.jpg" alt="">
-            </div>           
-            <div class="col-md-6">
+            <div class="col-md-6 somos__texto">
               <div class="container">
                 <div class="row">
                   <div class="col-md-12">
-                    <h2>Somos "EMPRESA" y queremos ayudarte</h2>
+                    <h2>Somos INFINITY BYTE y queremos ayudarte</h2>
                     <p>Nuestro objetivo es brindarte no solo una web o un sistema, sino tambien, introducirte en el mundo digital y enriquecerte con información para potenciar tus proyectos.</p>
                   </div>
                   <div class="col-md-6">
-                    <i class="fa-solid fa-laptop-mobile fa-lg" id="somosIcono"></i>
+                    <i class="fa-solid fa-cubes"></i>
                     <h4>Consultores</h4>
                     <p>Te ofrecemos orientación y los servicio para lograr proyectos Webs y tecnológicos.</p>
                   </div>
                   <div class="col-md-6">
-                    <i class="fa-solid fa-rectangle-code fa-lg"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
                     <h4>Desarrolladores</h4>
                     <p>Analizamos, construimos y te acompañamos en la creación de sistemas para tu organización o emprendimiento.</p>
                   </div>
@@ -79,6 +78,9 @@
                 
               </div>
             </div>
+            <div class="col-md-6">
+              <img class="img-fluid" src="images/desarrollo-de-aplicaciones-web-1.png" alt="">
+            </div>           
           </div>
         </div>
     </section>
@@ -86,25 +88,27 @@
 <section class="servicios container-fluid">
   <div class="container-lg">
     <div class="row">
-    <div class="serviciosTitulo">
+    <div class="servicios__titulo">
       <h2>Servicios</h2>
+      <i class="fa-solid fa-circle-down"></i>
     </div>
   </div>
   </div>
-  <div class="container-lg serviciosCards">
+  <div class="container-lg servicios__cards">
     <div class="row">
-      <div class="col-md-6 centrarText">
+      <div class="col-md-2"></div>
+      <div class="col-md-4 centrarText">
         <div class="card text-center" style="width: 18rem;" id="servicios-card">
           <div class="text-center">
           <img src="images/web-development.png" class="card-img-top img-fluid" alt="...">
           </div>
           <div class="card-body">
             <h5 class="card-title">Desarrollo Web</h5>
-            <p class="card-text">Diseñamos y desarrollamos de sistemas a medida para tu entidad</p>
+            <p class="card-text">Diseñamos y desarrollamos sistemas a medida para tu entidad</p>
           </div>
         </div>
       </div>
-      <div class="col-md-6 centrarText">
+      <div class="col-md-4 centrarText">
         <div class="card text-center" style="width: 18rem;" id="servicios-card">
           <div class="text-center">
             <img src="images/responsive.png" class="card-img-top img-fluid" alt="...">
@@ -115,7 +119,9 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 centrarText">
+      <div class="col-md-2"></div>
+      <div class="col-md-2"></div>
+      <div class="col-md-4 centrarText">
         <div class="card text-center" style="width: 18rem;" id="servicios-card">
           <div class="text-center">
             <img src="images/e-commerce.png" class="card-img-top img-fluid" alt="...">
@@ -126,7 +132,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 centrarText">
+      <div class="col-md-4 centrarText">
         <div class="card text-center" style="width: 18rem;" id="servicios-card">
           <div class="text-center">
             <img src="images/technical-support.png" class="card-img-top img-fluid" alt="...">
@@ -137,44 +143,78 @@
           </div>
         </div>
       </div>
+      <div class="col-md-2"></div>
+
     </div>
   </div>
 </section>
 
-    <section class="cta centrarText">
-        <div class="container-lg d-flex justify-content-center ">
-          <div class="ctaText">
-            <h2>Escribenos para mas informacion</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, quasi.</p>
-            <a href="" class="btn btn-primary" id="ctaBoton">Contacto</a>
+    <section class="redes">
+        <div class="container-lg">
+          <div class="redes__cta">
+            <h2> <i class="fa-solid fa-quote-left"></i> Comprendemos como funciona tu empresa y desarrollamos productos efectivos que <strong>aumentan tus ventas</strong> <i class="fa-solid fa-quote-right"></i> </h2>
+            <a href="" class="btn btn-primary">Contactanos</a>
           </div>
         </div>
     </section>
 
     <footer>
-      <div class="container">
+      <div class="container-lg footer__top">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-3">
             <div class="footer__contacto">
-              <h2>Contacto</h2>
+              <h2>INFINITY BYTE</h2>
               <p>
-                Teléfono: 11 5975 0099 <br />
-                Dirección: Av. Gaona 3930 - Ciudadela <br />
-                Pcía. de Buenos Aires <br />
-                E-mail: info@amoblamientosfamily.com.ar
+                <strong>Phone:</strong> +54 343 4179634
               </p>
-              <a href="">
-                  <img
-                  src="images/screenshot-www.google.com.ar-2021.09.21-22_12_02.png"
-                  class="imagen-mapa"
-                  alt=""/>
-              </a>
+              <p><strong>Email:</strong> aleoe.12@gmail.com
+              </p>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="footer__metodospago">
-              <h2>Metodos de pago</h2>
-                <img src="images/mPBxtgX.png" alt="" class="metodos-de-pago" />
+          <div class="col-md-2">
+            <div class="footer__links">
+              <h4>Enlaces utiles</h4>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <a href="">Inicio</a>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <a href="">Servicios</a>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <a href="">Nosotros</a>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <a href="">Contacto</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer__servicios">
+              <h4>Nuestros servicios</h4>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <p>Desarrollo Web</p>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <p>Diseño Web</p>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <p>E-Commerce</p>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <p>Consultoria</p>
+                  </li>
+                </ul>
             </div>
           </div>
         </div>

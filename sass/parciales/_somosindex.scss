@@ -1,16 +1,24 @@
 .somos {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
-}
-
-.somos img {
-    width: 100%;
-}
-
-#somosIcono {
-    font-size: 48px;
-    margin-top: 15px;
-    color: $color-acento;
+    height: 90vh;
+    background-image: linear-gradient(to bottom right, $color-fondo, $color-acento);
+    .somos__texto {
+        display: flex;
+        align-items: center;
+        color: $color-texto;
+        margin-top: 16px;
+        font-family: 'Ubuntu', sans-serif;
+        text-shadow: 2px 2px 5px $color-fondo;
+        i {
+            font-size: 3em;
+            color: $color-fondo;
+            padding: 13px;
+            text-shadow: none;
+        }
+        h2 {font-weight: 500;} h4 {font-weight: 400;} p {font-weight: 300;}
+    }
+    img {
+        width: 100%;
+    }
 }

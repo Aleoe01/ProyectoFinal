@@ -1,7 +1,7 @@
 /* encabezado */
 
 header {
-    background-color: $color-principal;
+    background-color: $color-texto;
 }
 
 
@@ -10,19 +10,16 @@ header {
     max-width: 1400px;
 }
 
-#logo{
-    padding: 12px 30px;
-    font-family: sans-serif;
-    font-weight: bold;
-    color: $color-texto;
-    text-decoration: none;
-    font-size: 28px;
-    transition: transform 0.4s;
+.logo {
+    img {
+        width: 300px;
+        transition: transform 0.4s;
+    }
+    img:hover {
+        transform: scale(1.2);
+    }
 }
-#logo:hover {
-    color: $color-texto;
-    transform: scale(1.2);
-}
+
 
 
 
@@ -31,21 +28,20 @@ header {
     justify-content: space-between;
     text-align: center;
     padding-bottom: 0;
-    padding-right: 20px;
-    padding-left: 20px;
     a {
         font-size: 14px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
         margin: 0 5px;
-        font-family: sans-serif;
-        color: $color-texto;
+        color: $color-fondo;
         text-transform: uppercase;
         text-decoration: none;
         padding: 8px;
         border-radius: 3px;
     }
     a:hover {
+        color: $color-fondo;
         background-color: $color-acento;
-        color: $color-texto;
     }
     
     a:active {

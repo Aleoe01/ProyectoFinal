@@ -1,20 +1,40 @@
 #hero {
     height: 90vh;
     margin-top: 10vh;
-    background: url(../images/fondoHero.jpg) center center;
+    background: url(/images/pexels-pixabay-270348.jpg) center center fixed;
     background-size: cover;
     position: relative;
     .container-lg {
         text-align: center;
+        padding: 40px;
+        width: 60%;
+        background-color: rgba(225, 225, 225, 0.05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
     }
     h1 {
+        font-weight: 400;
         font-size: 48px;
         line-height: 56px;
-        color: $color-texto;
+        color: $color-acento;
     }
     h4 {
+        font-weight: 300;
         color: $color-texto;
         margin: 20px 0;
+    }
+    .btn {
+        background-color: rgba(0, 0, 0, 0);
+        border-color: $color-acento;
+        font-weight: 300;
+        padding: 10px 30px;
+        border-radius: 30px;
+        margin-top: 5px;
+    }
+    .btn:hover {
+        background-color: $color-acento;
+        border-color: $color-acento;
     }
 }
 
@@ -23,17 +43,4 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-#ctaBoton{
-    background-color: $color-principal;
-    border-color: $color-principal;
-    padding: 10px 30px;
-    border-radius: 30px;
-    margin-top: 5px;
-}
-
-#ctaBoton:hover{
-    background-color: $color-acento;
-    border-color: $color-acento;
 }

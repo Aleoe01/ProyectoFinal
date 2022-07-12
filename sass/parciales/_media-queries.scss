@@ -1,61 +1,111 @@
 @media (max-width: 750px) {
+    
+    //barra de navegacion
     .barra {
         flex-direction: column;
         align-items: center;
-        a{
+        .logo{
             margin: 0px;
+        }
+        .nav {
+            flex-direction: column;
+            align-items: center;
+            padding: 15px 0;
         }
     }
     
-    .nav {
-        flex-direction: column;
-        align-items: center;
-        padding: 0px;
-    }
 
+    // pagina index
     #hero{
-        margin-top: 20vh;
+        height: 60vh;
+        margin-top: 40vh;
+        .container-lg {
+            width: 90%;
+            padding: 20px;
+        }
     }
-
-    .somos img{
-        padding-bottom: 15px;
+    .somos {
+        height: 130vh;
+        img{
+            padding-bottom: 15px;
+        }
     }
+    .servicios .servicios__cards {
+        margin-top: 0px;
+    }
+    footer .footer__top {
+        padding-top: 40px;
+        padding-bottom: 24px;
+        .footer__contacto {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+    }
+    footer .footer__fondo {
+        p {
+            margin-bottom: 0;
+        }
+    }
+    
+    // pagina servicios
 
     .hacemos {
         margin-top: 30vh;
-        height: 70vh;
-        text-align: center;
-        .hacemos__texto {
-            h2 {
-                font-size: 30px;
-                margin-bottom: 13px;
-            }
-            p {
-                font-size: 15px;
-                margin-top: 13px;
+        height: 80vh;
+        .container-lg {
+            padding: 0;
+            .hacemos__texto {
+                width: 84%;
+                h2 {
+                    margin-bottom: 30px;
+                    font-size: 45px;
+                }
             }
         }
-        .container {
-            padding-right: 12px;
+    }
+    .items {
+        height: 140vh;
+        .items__icono {
+                width: 26%;
+            .items__icono--radio {
+                i {
+                    line-height: 86px;
+                }
+            }
         }
     }
 
-    .google {
-        height: 70vh;
-        text-align: center;
-        .google__texto {
-            margin-top: 15px;
-            h2 {
-                font-size: 30px;
-                margin-bottom: 13px;
-            }
-            p {
-                font-size: 15px;
-                margin-top: 13px;
+    // pagina nosotros 
+
+    .nosotros {
+        height: 40vh;
+        margin-top: 50vh;
+        .nosotros__img {
+            img {
+                display: none;
             }
         }
-        .container {
-            padding-left: 12px;
+    }
+    .team {
+        height: 115vh;
+        margin-top: 15vh;
+        .container-lg {
+            .team__member {
+                img {
+                    width: 60%;
+                }
+            }
+        }
+    }
+
+    // pagina contacto 
+
+    .formulario {
+        height: 141vh;
+        margin-top: 37vh;
+        padding: 5px;
+        .formulario__iconos {
+            height: 69vh
         }
     }
 

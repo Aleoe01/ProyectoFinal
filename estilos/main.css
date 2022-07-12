@@ -421,38 +421,61 @@ footer {
   .barra {
     flex-direction: column;
     align-items: center; }
-    .barra a {
+    .barra .logo {
       margin: 0px; }
-  .nav {
-    flex-direction: column;
-    align-items: center;
-    padding: 0px; }
+    .barra .nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 15px 0; }
   #hero {
-    margin-top: 20vh; }
-  .somos img {
-    padding-bottom: 15px; }
+    height: 60vh;
+    margin-top: 40vh; }
+    #hero .container-lg {
+      width: 90%;
+      padding: 20px; }
+  .somos {
+    height: 130vh; }
+    .somos img {
+      padding-bottom: 15px; }
+  .servicios .servicios__cards {
+    margin-top: 0px; }
+  footer .footer__top {
+    padding-top: 40px;
+    padding-bottom: 24px; }
+    footer .footer__top .footer__contacto {
+      text-align: center;
+      margin-bottom: 15px; }
+  footer .footer__fondo p {
+    margin-bottom: 0; }
   .hacemos {
     margin-top: 30vh;
-    height: 70vh;
-    text-align: center; }
-    .hacemos .hacemos__texto h2 {
-      font-size: 30px;
-      margin-bottom: 13px; }
-    .hacemos .hacemos__texto p {
-      font-size: 15px;
-      margin-top: 13px; }
-    .hacemos .container {
-      padding-right: 12px; }
-  .google {
-    height: 70vh;
-    text-align: center; }
-    .google .google__texto {
-      margin-top: 15px; }
-      .google .google__texto h2 {
-        font-size: 30px;
-        margin-bottom: 13px; }
-      .google .google__texto p {
-        font-size: 15px;
-        margin-top: 13px; }
-    .google .container {
-      padding-left: 12px; } }
+    height: 80vh; }
+    .hacemos .container-lg {
+      padding: 0; }
+      .hacemos .container-lg .hacemos__texto {
+        width: 84%; }
+        .hacemos .container-lg .hacemos__texto h2 {
+          margin-bottom: 30px;
+          font-size: 45px; }
+  .items {
+    height: 140vh; }
+    .items .items__icono {
+      width: 26%; }
+      .items .items__icono .items__icono--radio i {
+        line-height: 86px; }
+  .nosotros {
+    height: 40vh;
+    margin-top: 50vh; }
+    .nosotros .nosotros__img img {
+      display: none; }
+  .team {
+    height: 115vh;
+    margin-top: 15vh; }
+    .team .container-lg .team__member img {
+      width: 60%; }
+  .formulario {
+    height: 141vh;
+    margin-top: 37vh;
+    padding: 5px; }
+    .formulario .formulario__iconos {
+      height: 69vh; } }

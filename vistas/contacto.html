@@ -68,33 +68,35 @@
                 </div>
             </div>
             <!--CAMPOS PARA CONTACTARNOS-->
-            <form class="formulario__campos" name="contact" method="POST" data-netlify="true">
-                <div class="row">
-                        <div class="col-md-6">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                                <input type="text" class="form-control" name="name" id="exampleFormControlInput1" placeholder="ingrese su nombre" required>
+            <form name="contact" method="POST" action="/pages/success" data-netlify="true">
+                <div class="formulario__campos">
+                    <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" name="name" id="exampleFormControlInput1" placeholder="ingrese su nombre" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                    <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                                    <input type="tel" class="form-control" name="tel" id="exampleFormControlInput1" placeholder="ej: 343 123456" required>
+                                </div>
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                                <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu mensaje</label>
+                                    <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                </div>
+                                <div class="formulario__enviar">
+                                    <a href="" class="btn btn-primary" type="submit">Enviar</a>
+                                </div>
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Telefono</label>
-                                <input type="tel" class="form-control" name="tel" id="exampleFormControlInput1" placeholder="ej: 343 123456" required>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu mensaje</label>
-                                <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="4"></textarea>
-                            </div>
-                            <div class="formulario__enviar">
-                                <a href="" class="btn btn-primary" type="submit">Enviar</a>
-                            </div>
-                        </div>
-                </div>
-            </form> 
+                    </div>
+                </div> 
+            </form>
         </div>
     </section>
 
